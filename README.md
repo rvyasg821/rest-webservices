@@ -1,14 +1,14 @@
-# REST web services example
-This is example will help you to create Rest based web services, which fetch data from Mysql database.
+# REST Web Service Demonstration
+The example code demonstrated how to create, configure and consume a REST web service backed by MySQL database using PHP.
 
-##Database setup:
-- Create Database and import sql file (db_company_rest_services.sql)
+##Database Setup:
+- Creates Database and required schema (db_company_rest_services.sql)
 
 ##How to Host:
-- Move all file and folder in root directory 
+- Move all files and folders in root directory 
 - Database configuration: system/dbclass.php
 
-##Web services Details:
+##Web service Details:
 **1. Get Company List:**
 
 Url : http://www.xyz.com/api/getCompanies
@@ -51,6 +51,7 @@ Post Field:
 - Email 
 - Phone
 - Directors (Array)
+
 Response: Json Array
 - Success  (1 or 0)
 
