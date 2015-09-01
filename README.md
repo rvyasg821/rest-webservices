@@ -1,5 +1,5 @@
 # RESTful Web Service Demonstration
-The example code demonstrate how to create, configure and consume a RESTful web service backed by MySQL database using PHP.
+The example code demonstrates how to create, configure and consume a RESTful web service backed by MySQL database using PHP.
 
 ##Database Setup:
 - Creates Database and required schema (db_company_rest_services.sql)
