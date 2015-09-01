@@ -1,5 +1,5 @@
-# REST Web Service Demonstration
-The example code demonstrated how to create, configure and consume a REST web service backed by MySQL database using PHP.
+# RESTful Web Service Demonstration
+The example code demonstrate how to create, configure and consume a RESTful web service backed by MySQL database using PHP.
 
 ##Database Setup:
 - Creates Database and required schema (db_company_rest_services.sql)
@@ -8,10 +8,10 @@ The example code demonstrated how to create, configure and consume a REST web se
 - Move all files and folders in root directory 
 - Database configuration: system/dbclass.php
 
-##Web service Details:
+##RESTful Web service Details:
 **1. Get Company List:**
 
-Url : http://www.xyz.com/api/getCompanies
+Example Url : http://www.xyz.com/api/getCompanies
 
 Response: Json Array
 - ComapnyID
@@ -24,7 +24,7 @@ Response: Json Array
 
 **2. Get Company Detail**
 
-Url : http://www.xyz.com/api/getCompany (POST)
+Example Url : http://www.xyz.com/api/getCompany (POST)
 
 Post Field:
 - ComapnyID
@@ -41,7 +41,7 @@ Response: Json Array
 
 **3. Add Company**
 
-Url: http://www.xyz.com/api/createCompany (POST)
+Example Url: http://www.xyz.com/api/createCompany (POST)
 
 Post Field:
 - Name
@@ -57,7 +57,7 @@ Response: Json Array
 
 **4. Update Company**
 
-Url: http://www.xyz.com/api/updateCompany (POST)
+Example Url: http://www.xyz.com/api/updateCompany (POST)
 
 Post Field:
 - CompanyID
@@ -74,7 +74,7 @@ Response: Json Array
 
 **5. Delete Company**
 
-Url: http://www.xyz.com/api/deleteCompany (POST)
+Example Url: http://www.xyz.com/api/deleteCompany (POST)
 
 Post Field:
 - CompanyID		
