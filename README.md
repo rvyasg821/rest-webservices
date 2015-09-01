@@ -73,7 +73,7 @@ Response: Json Array
 
 **5. Delete Company**
 
-Url: http://www.xyz.com/api/updateCompany (POST)
+Url: http://www.xyz.com/api/deleteCompany (POST)
 
 Post Field:
 - CompanyID		
